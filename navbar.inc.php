@@ -22,9 +22,16 @@
       <li><a href="index.php">Home</a></li>
       <li><a href="#">Intro</a></li>
       <li><a href="blast.php">Blast</a></li>
-      <li><a href="search.php">Search</a></li>
-      <li><a href="blast.php">Tutorial</a></li>     
-      <li><a href="#">Contact Us</a></li>
+      <li class="dropdown"><a href="#" class="dropdown=data-toggle" data-toggle="dropdown">Search<span class="caret"></span></a>
+      <ul class="dropdown-menu">
+       <li><a href="search.php">microsatellite</a></li>
+       <li><a href="geneontology.php">gene ontology</a></li>
+       <li><a href="#">primers</a></li>
+       </ul>
+      </li>
+      <li><a href="#">Tutorial</a></li>     
+      <li><a href="contact.php">Contact Us</a></li>
     </ul>
   </div>
 </nav>
+ 
